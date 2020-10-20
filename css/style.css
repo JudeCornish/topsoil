@@ -500,6 +500,13 @@ p {
 	width: 65%;
 }
 
+@media screen and (max-width: 800px) {
+	.section3 .product-right,
+	.section3 .product-left {
+		width: 100%;
+	}
+}
+
 .section3 .landing-cta {
 	color: #047584;
 	transition: 0.5s all ease;
