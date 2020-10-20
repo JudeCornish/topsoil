@@ -54,6 +54,7 @@ nav {
 	height: 7vh;
 	z-index: 999;
 	display: flex;
+	margin-right: 50px;
 	line-height: 7vh;
 	flex-direction: column;
 	justify-content: space-around;
