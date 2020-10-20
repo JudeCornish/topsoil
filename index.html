@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>TOPSOIL - Jude Cornish</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="icon" href="resources/img/icon.svg" type="image/x-icon" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="vendors/lottie.js"></script>
+		<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+	</head>
+	<body>
+		<header id="navbar">
+			<div class="wrapper">
+				<nav>
+					<div class="menu-icons">
+						<ion-icon class="menu-outline" name="menu-outline"></ion-icon>
+						<ion-icon class="close-outline" name="close-outline"></ion-icon>
+					</div>
+					<a href="index.html">
+						<div class="logo-container">
+							<img src="resources/img/topsoil-logo.svg" />
+						</div>
+					</a>
+					<ul class="nav-list">
+						<li>
+							<a class="normal-nav _current_" href="../index.html">Home</a>
+						</li>
+
+						<li>
+							<a href="#" class="normal-nav"
+								>About us
+								<ion-icon
+									class="dropdown-icon"
+									name="caret-down-outline"
+								></ion-icon
+							></a>
+							<ul class="sub-menu">
+								<li>
+									<a class="normal-nav" href="#">TOPSOIL Team</a>
+								</li>
+								<li>
+									<a class="normal-nav" href="#">Our Credentials</a>
+								</li>
+								<li>
+									<a class="normal-nav" href="#">How is TOPSOIL produced?</a>
+								</li>
+							</ul>
+						</li>
+
+						<li>
+							<a href="#" class="normal-nav"
+								>Product range
+								<ion-icon
+									class="dropdown-icon"
+									name="caret-down-outline"
+								></ion-icon
+							></a>
+							<ul class="sub-menu">
+								<li>
+									<a class="normal-nav" href="#">HortLoam</a>
+								</li>
+								<li>
+									<a class="normal-nav" href="#">Sports&Turf</a>
+								</li>
+								<li>
+									<a class="normal-nav" href="#">Lawn Dressing</a>
+								</li>
+								<li>
+									<a class="normal-nav" href="#">Landscape20 </a>
+								</li>
+								<li>
+									<a class="normal-nav" href="#">SubSoil</a>
+								</li>
+							</ul>
+						</li>
+
+						<li>
+							<a href="#" class="normal-nav"
+								>Media
+								<ion-icon
+									class="dropdown-icon"
+									name="caret-down-outline"
+								></ion-icon
+							></a>
+							<ul class="sub-menu">
+								<li>
+									<a class="normal-nav" href="#">News</a>
+								</li>
+								<li>
+									<a class="normal-nav" href="#">Events</a>
+								</li>
+								<li>
+									<a class="normal-nav" href="#">Charity work</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="pages/blog.html" class="normal-nav">Case studies</a>
+						</li>
+
+						<li>
+							<a href="#" class="normal-nav"
+								>More information
+								<ion-icon
+									class="dropdown-icon"
+									name="caret-down-outline"
+								></ion-icon
+							></a>
+							<ul class="sub-menu">
+								<li>
+									<a class="normal-nav" href="#">TOPSOIL Care</a>
+								</li>
+								<li>
+									<a class="normal-nav" href="#">Technical Support</a>
+								</li>
+								<li>
+									<a class="normal-nav" href="#">TOPSOIL Facts</a>
+								</li>
+								<li>
+									<a class="normal-nav" href="#">Soil Analysis</a>
+								</li>
+								<li>
+									<a class="normal-nav" href="#">TOPSOIL Calculator</a>
+								</li>
+								<li>
+									<a class="normal-nav" href="#">Planning your order</a>
+								</li>
+								<li>
+									<a class="normal-nav" href="#">FAQs</a>
+								</li>
+							</ul>
+						</li>
+						<li class="move-right nav-button">
+							<a class="btn" href="#">Contact us</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<div class="wrapper">
+			<div class="landing">
+				<div class="landing-left">
+					<div class="landing-left-inner">
+						<h1>
+							The UK's leading supplier of topsoil and topdressing products.
+						</h1>
+						<a class="landing-cta" href="">
+							<div class="landing-cta-inner">
+								Browse our products
+								<div class="cta-arrow-container">
+									<ion-icon
+										class="cta-arrow"
+										name="arrow-forward-outline"
+									></ion-icon>
+								</div></div
+						></a>
+					</div>
+				</div>
+				<div class="landing-right">
+					<div class="animation-container">
+						<div id="animated-tree-img" class="animated-tree-img"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="product show-on-scroll is-visible section section1">
+			<div class="wrapper">
+				<div class="product-inner">
+					<div class="product-left">
+						<img src="resources/img/products/item-2-w678h264.jpg" alt="" />
+					</div>
+					<div class="product-right">
+						<div class="upper">
+							<h2>Sports & Turf</h2>
+							<p>
+								A blend of 90% medium and coarse sand with 10% British Sugar
+								TOPSOIL, Sports&Turf's combination of specialist sand and soil
+								is ideal for grass establishment and maintenance.
+							</p>
+						</div>
+						<div class="lower">
+							<a class="landing-cta" href="">
+								<div class="landing-cta-inner">
+									Find out more about Sports & Turf
+									<div class="cta-arrow-container">
+										<ion-icon
+											class="cta-arrow"
+											name="arrow-forward-outline"
+										></ion-icon>
+									</div></div
+							></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="product show-on-scroll is-visible section section2">
+			<div class="wrapper">
+				<div class="product-inner">
+					<div class="product-right">
+						<div class="upper">
+							<h2>LANDSCAPE20</h2>
+							<p>
+								A multi-purpose topsoil, ideal for landscaping and sports field
+								construction projects. Continually developed over the past
+								decade, this BS3882:2015 compliant Topsoil has become the most
+								successful product of its type in the UK.
+							</p>
+						</div>
+						<div class="lower">
+							<a class="landing-cta" href="">
+								<div class="landing-cta-inner">
+									Find out more about LANDSCAPE20
+									<div class="cta-arrow-container">
+										<ion-icon
+											class="cta-arrow"
+											name="arrow-forward-outline"
+										></ion-icon>
+									</div></div
+							></a>
+						</div>
+					</div>
+					<div class="product-left">
+						<img src="resources/img/products/landscape20.jpg" alt="" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="product show-on-scroll is-visible section section1">
+			<div class="wrapper">
+				<div class="product-inner">
+					<div class="product-left">
+						<img src="resources/img/products/lawndressing.jpg" alt="" />
+					</div>
+					<div class="product-right">
+						<div class="upper">
+							<h2>LawnDressing</h2>
+							<p>
+								A high quality, sand based, multi-purpose dressing, designed for
+								use on lawns. LawnDressing is a blend of 90% medium and coarse
+								sand with 10% British Sugar TOPSOIL.
+							</p>
+						</div>
+						<div class="lower">
+							<a class="landing-cta" href="">
+								<div class="landing-cta-inner">
+									Find out more about LawnDressing
+									<div class="cta-arrow-container">
+										<ion-icon
+											class="cta-arrow"
+											name="arrow-forward-outline"
+										></ion-icon>
+									</div></div
+							></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="product show-on-scroll is-visible section section2">
+			<div class="wrapper">
+				<div class="product-inner">
+					<div class="product-right">
+						<div class="upper">
+							<h2>HortLoam</h2>
+							<p>
+								HortLoam, with its additional reserves of organic matter in the
+								form of PAS 100 compliant 'green' compost, provides the optimum
+								nutrient levels for establishing young plants and encouraging
+								healthy root growth. BS3882:2015 compliant.
+							</p>
+						</div>
+						<div class="lower">
+							<a class="landing-cta" href="">
+								<div class="landing-cta-inner">
+									Find out more about HortLoam
+									<div class="cta-arrow-container">
+										<ion-icon
+											class="cta-arrow"
+											name="arrow-forward-outline"
+										></ion-icon>
+									</div></div
+							></a>
+						</div>
+					</div>
+					<div class="product-left">
+						<img
+							src="resources/img/products/aerial-finished-view-w678h264.jpg"
+							alt=""
+						/>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section show-on-scroll is-visible section1">
+			<div class="wrapper">
+				<div class="about">
+					<div class="about-title">
+						<h1>We're here to help</h1>
+					</div>
+					<div class="about-member-row">
+						<div class="team-member">
+							<img src="resources/img/products/andy.jpg" alt="" />
+							<h2>Andy Spetch</h2>
+							<p class="role">National TOPSOIL Manager</p>
+							<p>
+								Always up for a challenge Andy has trekked in Vietnam, climbed
+								the UK’s three highest peaks and cycled the London 100 and from
+								London to Paris all in aid of charity.
+							</p>
+						</div>
+						<div class="team-member">
+							<img src="resources/img/products/natalie.jpg" alt="" />
+							<h2>Natalie Gudgin‭ ‬</h2>
+							<p class="role">TOPSOIL Sales Manager</p>
+							<p>
+								Outside of work, Natalie has a passion for travel. Natalie has
+								been on an around the world trip visiting several countries in
+								South East Asia and Australasia. Natalie also has an interest in
+								reading and music.
+							</p>
+						</div>
+						<div class="team-member">
+							<img
+								src="resources/img/products/grace-crop-w206h206.jpg"
+								alt=""
+							/>
+							<h2>Grace Townsend‭</h2>
+							<p class="role">TOPSOIL Sales Manager</p>
+							<p>
+								Outside of work, Grace enjoys going to music festivals and
+								skiing holidays with her family.
+							</p>
+						</div>
+					</div>
+					<div class="about-member-row">
+						<div class="team-member">
+							<img src="resources/img/products/kim.jpg" alt="" />
+							<h2>Kim Campton</h2>
+							<p class="role">TOPSOIL Sales Manager</p>
+							<p>
+								Kim likes to visit the gym 4-5 times a week to keep fit, along
+								with cycling and walking with her two dogs at the weekends.
+							</p>
+						</div>
+						<div class="team-member">
+							<img src="resources/img/products/samantha.jpg" alt="" />
+							<h2>Samantha Hodge</h2>
+							<p class="role">National TOPSOIL Manager</p>
+							<p>
+								Outside of work Sam enjoys running and spending time with her
+								family.
+							</p>
+						</div>
+						<div class="team-member">
+							<img src="resources/img/products/'.jpg" alt="" />
+							<h2>Samantha Hodge</h2>
+							<p class="role">TOPSOIL Placement Student</p>
+							<p>
+								In her role Bethany will be supporting the sales team by
+								managing our website, social media accounts and TOPSOIL
+								literature.
+							</p>
+						</div>
+					</div>
+					<div class="about-member-row">
+						<div class="team-member team-member-final">
+							<img src="resources/img/products/me.jpg" alt="" />
+							<h2>Jude Cornish</h2>
+							<p class="role">Hopeful TOPSOIL Applicant</p>
+							<p>
+								Avid runner, squash player and hopeful TOPSOIL placement
+								applicant. Persistently hard worker.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section show-on-scroll is-visible section3">
+			<div class="wrapper">
+				<h1>Why have I created this?</h1>
+				<div class="product-inner">
+					<div class="product-right">
+						<div class="upper">
+							<h2>I work hard.</h2>
+							<p>
+								This site showcases the value I can provide to your Marketing
+								team in terms of design from a web-based and offline
+								perspective.
+							</p>
+							<p>
+								These design skills and my understanding of modern design
+								practices can be directly transferrable to social media posts,
+								newsletter design, brochure design, client proposals and more.
+								Do you have an email newsletter? If not, would this be something
+								worth looking into? I could take the lead on this.
+							</p>
+							<p>
+								In my view, there is no better way to show you my experience and
+								the value I provide than to code a (although limited) completely
+								bespoke site for the role.
+							</p>
+							<p>
+								Hopefully this also conveys my drive and motivation to work at
+								TOPSOIL.
+							</p>
+							<p>
+								You can view more of my work on my portfolio via the link below.
+								All projects are completely custom and bespoke. Created and
+								maintained by me, operating under Jude Cornish Media.
+							</p>
+						</div>
+						<div class="lower">
+							<a
+								class="landing-cta"
+								href="https://www.judecornish.co.uk"
+								target="_blank"
+							>
+								<div class="landing-cta-inner">
+									Visit my portfolio
+									<div class="cta-arrow-container">
+										<ion-icon
+											class="cta-arrow"
+											name="arrow-forward-outline"
+										></ion-icon>
+									</div></div
+							></a>
+						</div>
+					</div>
+					<div class="product-left">
+						<img src="resources/img/jc.png" alt="" />
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			<div class="wrapper">
+				<div class="footer-inner">
+					<div class="footer-box-container">
+						<a
+							download
+							href="resources/Jude Cornish Digital Marketing TOPSOIL CV.pdf"
+						>
+							<div class="footer-box">
+								<div class="icon-container">
+									<ion-icon class="icon" name="download-outline"></ion-icon>
+								</div>
+								<h2>Download my CV</h2>
+							</div>
+						</a>
+					</div>
+					<div class="footer-box-container">
+						<a
+							href="mailto:judecornish@gmail.com?Subject=Your awesome mock-up website"
+							target="_blank"
+						>
+							<div class="footer-box">
+								<div class="icon-container">
+									<ion-icon class="icon" name="mail-outline"></ion-icon>
+								</div>
+								<h2>Email me</h2>
+							</div>
+						</a>
+					</div>
+					<div class="footer-box-container">
+						<a href="https://www.judecornish.co.uk" target="_blank">
+							<div class="footer-box">
+								<div class="icon-container">
+									<ion-icon class="icon" name="globe-outline"></ion-icon>
+								</div>
+								<h2>Visit my website</h2>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script
+			src="https://code.jquery.com/jquery-3.5.0.js"
+			integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc="
+			crossorigin="anonymous"
+		></script>
+		<script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+		<script src="app.js"></script>
+		<script>
+			var animation = bodymovin.loadAnimation({
+				container: document.getElementById("animated-tree-img"), // Required
+				path: "resources/img/tree.json", // Required
+				renderer: "svg", // Required
+				loop: true, // Optional
+				autoplay: true, // Optional
+				name: "Hello World", // Name for future reference. Optional.
+			});
+		</script>
+	</body>
+</html>
