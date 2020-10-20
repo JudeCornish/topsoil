@@ -233,10 +233,6 @@ nav .btn {
 		left: 1vh;
 	}
 
-	.nav-list .btn {
-		margin-top: 1vh;
-	}
-
 	.nav-list a {
 		color: black;
 	}
@@ -343,6 +339,7 @@ nav .btn {
 	display: grid;
 	margin: 0 auto;
 	position: relative;
+	overflow-x: hidden;
 }
 
 #animated-tree-img {
@@ -353,6 +350,7 @@ nav .btn {
 	object-fit: cover;
 	transform: translateY(-20%);
 	z-index: -1;
+	overflow-x: hidden;
 }
 
 .section1 {
