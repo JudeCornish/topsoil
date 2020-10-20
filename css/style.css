@@ -339,8 +339,13 @@ nav .btn {
 	display: grid;
 	margin: 0 auto;
 	position: relative;
-	overflow-x: hidden;
-	overflow-y: hidden;
+}
+
+@media screen and (max-width: 800px) {
+	.landing .animation-container {
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
 }
 
 #animated-tree-img {
