@@ -32,6 +32,7 @@ header {
 	top: 0;
 	width: 100%;
 	z-index: 999999;
+	background-color: white;
 }
 
 .menu-icons {
