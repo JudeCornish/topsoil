@@ -382,6 +382,18 @@ nav .btn {
 	transform: translateY(0rem);
 }
 
+.team-member {
+	opacity: 0;
+	transform: translateY(2rem);
+	transition: 1s ease-in-out;
+}
+
+.team-member.is-visible {
+	opacity: 1;
+	transition: 1s ease-in-out;
+	transform: translateY(0rem);
+}
+
 .product-inner {
 	display: flex;
 	justify-content: space-between;
