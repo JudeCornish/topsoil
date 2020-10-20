@@ -492,6 +492,14 @@ p {
 	margin-bottom: 1vh;
 }
 
+.section3 .product-left {
+	width: 30%;
+}
+
+.section3 .product-right {
+	width: 65%;
+}
+
 .section3 .landing-cta {
 	color: #047584;
 	transition: 0.5s all ease;
@@ -629,7 +637,7 @@ footer {
 		font-size: 200%;
 	}
 
-	.section3 img {
+	.section3 video {
 		margin-top: 2vh;
 	}
 }
